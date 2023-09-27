@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: shaked-python-comp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-saviv-tenant/shaked-new-app2/shaked-python-comp@sha256:4480487a4f9c7a17c8d3cccc54febcd7752c3852b31de577c865dbc1381f75d4
+        name: my-python
+        resources: {}
+status: {}
