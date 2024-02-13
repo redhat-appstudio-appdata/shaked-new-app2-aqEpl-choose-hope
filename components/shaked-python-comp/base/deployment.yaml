@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: shaked-new-app2
   name: shaked-python-comp
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
